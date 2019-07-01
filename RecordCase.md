@@ -26,7 +26,7 @@
 
 进入录制回放页面，界面如下：
 
-  ![RecordCase](RecordCase/RecordCase.png)
+   ![RecordCase](RecordCase/RecordCase.png)
 
 
 
@@ -38,7 +38,7 @@
 
 1. 点击启动按钮后，Soloπ会弹出操作悬浮窗，并自动跳转到被测应用的首页
 
-  ![floatWin](RecordCase/floatWin.png)
+   ![floatWin](RecordCase/floatWin.png)
    
    > 如果Soloπ未能通过android.intent.category.LAUNCHER解析出被测应用的启动页，跳转会失败
    >
@@ -47,11 +47,11 @@
    
 2. 在悬浮窗中点击开始按钮，进入录制状态
 
-  ![floatIcon](RecordCase/floatIcon.png)
+   ![floatIcon](RecordCase/floatIcon.png)
 
 3. 录制过程中，Soloπ会对用户的操作进行拦截，高亮当前点击的控件，并弹出操作选择框，如果显示的红框与期望操作的控件不符，可以考虑切换到H5增强模式进行查找。
 
-  ![nodeActions](RecordCase/nodeActions.png)
+   ![nodeActions](RecordCase/nodeActions.png)
 
   > 控件操作的具体内容可以查看 [控件操作](Actions#常用控件操作方法示例)
   >
@@ -61,11 +61,11 @@
 
   使用图像查找模式时，Soloπ会截取当前屏幕截图，由用户选择区域进行操作。
 
-  ![captureModeOperation](RecordCase/captureModeOperation.png)
+   ![captureModeOperation](RecordCase/captureModeOperation.png)
 
 4. 除了上述基于控件的操作，Soloπ还提供了处理弹窗、scheme跳转等全局操作，可以通过点击 "π" 图标唤起操作选择框：
 
-  ![globalActions](RecordCase/globalActions.png)
+   ![globalActions](RecordCase/globalActions.png)
    
    > 具体操作介绍可参考[全局操作](Actions#常用全局操作方法示例)
    
@@ -77,44 +77,44 @@
 
 1. 在Soloπ录制回放页面中，点击下方的查看全部按钮，可以查看到本地所有的用例
 
-  ![RecordCase](RecordCase/RecordCase.png)
+   ![RecordCase](RecordCase/RecordCase.png)
 
   被测应用打开后，点击开始按钮，用例就会开始进行回放
 
-  ![RecordCase](RecordCase/replay.png)
+   ![RecordCase](RecordCase/replay.png)
 
 2. 在全部用例列表中，点击列表中任意一条case，Soloπ会打开被测应用，并进入准备回放状态。
 
-  ![caseList](RecordCase/caseList.png)
+   ![caseList](RecordCase/caseList.png)
 
-  ![replay](RecordCase/replay.png)
+   ![replay](RecordCase/replay.png)
 
 3. 用例回放过程中，Soloπ会高亮待操作控件
 
-  ![replayNode](RecordCase/replayNode.jpg)
+   ![replayNode](RecordCase/replayNode.jpg)
 
 4. 回访结束后，Soloπ会展示回放的相关内容
    - 回放概况
 
-    ![replayResult](RecordCase/replayResult.png)
+       ![replayResult](RecordCase/replayResult.png)
 
    - 回放用例步骤信息
 
-    ![replaySteps](RecordCase/replaySteps.png)
+       ![replaySteps](RecordCase/replaySteps.png)
 
      > 可以点击查看目标节点与实际查找节点的区别
 
-    ![replayNodeInfo](RecordCase/replayNodeInfo.png)
+       ![replayNodeInfo](RecordCase/replayNodeInfo.png)
 
    - 回放应用日志
 
-    ![replayLog](RecordCase/replayLog.png)
+       ![replayLog](RecordCase/replayLog.png)
 
       > Soloπ会从logcat中获取的目标应用所有进程的日志，所以会有一部分日志产生时间在开始回放之前
 
    - 用例截图
 
-    ![replayScreenshot](RecordCase/replayScreenshot.png)
+       ![replayScreenshot](RecordCase/replayScreenshot.png)
 
 
 
@@ -122,11 +122,11 @@
 
 在Soloπ录制回放页面点击“查看全部”即可进入
 
-  ![caseList](RecordCase/caseList.png)
+   ![caseList](RecordCase/caseList.png)
 
 其中各条用例均可长按，长按后会显示以下四种功能
 
-  ![caseOperation](RecordCase/caseOperation.png)
+   ![caseOperation](RecordCase/caseOperation.png)
 
 1. 删除用例，从数据库中删除该条用例
 
@@ -134,11 +134,11 @@
 
 3. 重复播放，Soloπ会重复执行该条用例，可以配置回访次数与是否在每次用例执行前重启应用。
    
-  ![repeatExecution](RecordCase/repeatExecution.png)
+   ![repeatExecution](RecordCase/repeatExecution.png)
    
   回放完毕后，会展示批量执行结果，点击每一项，可以查看单条用例执行结果
    
-  ![groupResult](RecordCase/groupResult.png)
+   ![groupResult](RecordCase/groupResult.png)
 
 4. 编辑用例，Soloπ支持对该条用例进行编辑，对用例中的步骤进行增、删、改操作；同时，Soloπ支持在用例中添加IF、WHILE的逻辑判断功能，详细使用方法请参考[用例编辑](CaseEdit)
 
@@ -148,12 +148,12 @@
 
 1. 点击右上角批量回放进入
 
-  ![groupReplayEntry](RecordCase/groupReplayEntry.png)
+   ![groupReplayEntry](RecordCase/groupReplayEntry.png)
 
 2. 勾选需要回放的用例，点击确定开始回放
 
-  ![selectCase](RecordCase/selectCase.png)
+   ![selectCase](RecordCase/selectCase.png)
 
 3. 用例回放完毕后，会回到批量回放结果页
 
-  ![groupResult](RecordCase/groupResult.png)
+   ![groupResult](RecordCase/groupResult.png)
