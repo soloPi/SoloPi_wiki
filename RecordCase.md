@@ -26,7 +26,7 @@
 
 进入录制回放页面，界面如下：
 
-![RecordCase](RecordCase/RecordCase.png)
+  ![RecordCase](RecordCase/RecordCase.png)
 
 
 
@@ -38,7 +38,7 @@
 
 1. 点击启动按钮后，Soloπ会弹出操作悬浮窗，并自动跳转到被测应用的首页
 
-![floatWin](RecordCase/floatWin.png)
+  ![floatWin](RecordCase/floatWin.png)
    
    > 如果Soloπ未能通过android.intent.category.LAUNCHER解析出被测应用的启动页，跳转会失败
    >
@@ -51,7 +51,7 @@
 
 3. 录制过程中，Soloπ会对用户的操作进行拦截，高亮当前点击的控件，并弹出操作选择框，如果显示的红框与期望操作的控件不符，可以考虑切换到H5增强模式进行查找。
 
-    ![nodeActions](RecordCase/nodeActions.png)
+  ![nodeActions](RecordCase/nodeActions.png)
 
   > 控件操作的具体内容可以查看 [控件操作](Actions#常用控件操作方法示例)
   >
@@ -65,7 +65,7 @@
 
 4. 除了上述基于控件的操作，Soloπ还提供了处理弹窗、scheme跳转等全局操作，可以通过点击 "π" 图标唤起操作选择框：
 
-![globalActions](RecordCase/globalActions.png)
+  ![globalActions](RecordCase/globalActions.png)
    
    > 具体操作介绍可参考[全局操作](Actions#常用全局操作方法示例)
    
@@ -96,25 +96,25 @@
 4. 回访结束后，Soloπ会展示回放的相关内容
    - 回放概况
 
-      ![replayResult](RecordCase/replayResult.png)
+    ![replayResult](RecordCase/replayResult.png)
 
    - 回放用例步骤信息
 
-      ![replaySteps](RecordCase/replaySteps.png)
+    ![replaySteps](RecordCase/replaySteps.png)
 
      > 可以点击查看目标节点与实际查找节点的区别
 
-      ![replayNodeInfo](RecordCase/replayNodeInfo.png)
+    ![replayNodeInfo](RecordCase/replayNodeInfo.png)
 
    - 回放应用日志
 
-      ![replayLog](RecordCase/replayLog.png)
+    ![replayLog](RecordCase/replayLog.png)
 
       > Soloπ会从logcat中获取的目标应用所有进程的日志，所以会有一部分日志产生时间在开始回放之前
 
    - 用例截图
 
-      ![replayScreenshot](RecordCase/replayScreenshot.png)
+    ![replayScreenshot](RecordCase/replayScreenshot.png)
 
 
 
@@ -126,7 +126,7 @@
 
 其中各条用例均可长按，长按后会显示以下四种功能
 
-   ![caseOperation](RecordCase/caseOperation.png)
+  ![caseOperation](RecordCase/caseOperation.png)
 
 1. 删除用例，从数据库中删除该条用例
 
@@ -134,11 +134,11 @@
 
 3. 重复播放，Soloπ会重复执行该条用例，可以配置回访次数与是否在每次用例执行前重启应用。
    
-   ![repeatExecution](RecordCase/repeatExecution.png)
+  ![repeatExecution](RecordCase/repeatExecution.png)
    
-   回放完毕后，会展示批量执行结果，点击每一项，可以查看单条用例执行结果
+  回放完毕后，会展示批量执行结果，点击每一项，可以查看单条用例执行结果
    
-   ![groupResult](RecordCase/groupResult.png)
+  ![groupResult](RecordCase/groupResult.png)
 
 4. 编辑用例，Soloπ支持对该条用例进行编辑，对用例中的步骤进行增、删、改操作；同时，Soloπ支持在用例中添加IF、WHILE的逻辑判断功能，详细使用方法请参考[用例编辑](CaseEdit)
 

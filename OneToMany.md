@@ -14,7 +14,7 @@
 
 打开Soloπ，进入一机多控页面，界面如下：
 
-![oneToMany](OneToMany/oneToMany.png)
+  ![oneToMany](OneToMany/oneToMany.png)
 
 ### 主机模式
 
@@ -38,7 +38,7 @@
 
 4. 操作过程中，Soloπ会对用户的操作进行拦截，高亮当前点击的控件，并弹出操作选择框。
 
-     ![nodeActions](OneToMany/nodeActions.png)
+  ![nodeActions](OneToMany/nodeActions.png)
 
   > 如果显示的红框与期望操作的控件不符，可以考虑在全局操作中使用切换模式功能，切换到 H5增强模式 进行查找
   >
@@ -61,14 +61,14 @@
 
 1. 在Soloπ一机多控页面中，选择从机模式，点击开始执行
 
-![slaveConfig](OneToMany/slaveConfig.png)
+  ![slaveConfig](OneToMany/slaveConfig.png)
    
    > 不需要选择测试应用，主机会将其测试的应用传递给从机
 
 
 2. Soloπ显示包含从机IP信息的二维码，主机可扫码进行连接
 
-![slave](OneToMany/slave.png)
+  ![slave](OneToMany/slave.png)
    
    > 扫码后从机会显示收到连接提示，但不会收起悬浮窗，需要主机点击连接后才可正式建立连接
 

@@ -2,11 +2,11 @@
 
 #### 点击操作
 
-![clickN](Actions/clickN.png)
+  ![clickN](Actions/clickN.png)
 
 1. 点击
 
-![click](Actions/click.gif)
+  ![click](Actions/click.gif)
    
    > 会根据实际点击的黄点进行点击
 
@@ -23,7 +23,7 @@
 
 4. 重复点击
 
-![repeatClick](Actions/repeatClick.gif)
+  ![repeatClick](Actions/repeatClick.gif)
    
    > 快速对用户点击位置进行重复点击
 
@@ -32,7 +32,7 @@
 
 #### 输入操作
 
-![inputN](Actions/inputN.png)
+  ![inputN](Actions/inputN.png)
 
 1. 输入
 
@@ -46,18 +46,18 @@
 
 #### 滑动操作
 
-![scrollN](Actions/scrollN.png)
+  ![scrollN](Actions/scrollN.png)
 
 1. 上滑
 
-![scrollUp](Actions/scrollUp.gif)
+  ![scrollUp](Actions/scrollUp.gif)
    
    > 根据控件高度百分比进行滑动
 
 
 2. 左右滑
 
-![scrollHorizon](Actions/scrollHorizon.gif)
+  ![scrollHorizon](Actions/scrollHorizon.gif)
    
    > 从点击的位置开始滑动，按照控件宽度百分比滑动
 
@@ -65,7 +65,7 @@
 
 #### 断言操作
 
-![assertN](Actions/assertN.png)
+  ![assertN](Actions/assertN.png)
 
 1. 断言
 
@@ -85,7 +85,7 @@
 
   #### 附加操作
 
-![extraN](Actions/extraN.png)
+  ![extraN](Actions/extraN.png)
 
 
    具体介绍可见全局操作中关于附加操作的介绍
@@ -97,11 +97,11 @@
 > 触发全局操作，需要点击屏幕右侧的Soloπ图标（下图）
 >
 
-![floatIcon](Actions/floatIcon.png)
+  ![floatIcon](Actions/floatIcon.png)
 
 #### 常用操作
 
-![commonG](Actions/commonG.png)
+  ![commonG](Actions/commonG.png)
 
 1. 返回
 
@@ -123,7 +123,7 @@
 
 #### 应用操作
 
-![appG](Actions/appG.png)
+  ![appG](Actions/appG.png)
 
 1. 回到首页
 
@@ -141,7 +141,7 @@
 
 #### 滑动操作
 
-![scrollG](Actions/scrollG.png)
+  ![scrollG](Actions/scrollG.png)
 
 1. 全局滑动
 
@@ -151,7 +151,7 @@
 
 #### 互联操作
 
-![controlG](Actions/controlG.png)
+  ![controlG](Actions/controlG.png)
 
 1. 安装应用（仅一机多控）
 
@@ -169,19 +169,19 @@
 
 #### 设备操作
 
-![deviceG](Actions/deviceG.png)
+  ![deviceG](Actions/deviceG.png)
 
 
 
 #### 额外操作
 
-![extraG](Actions/extraG.png)
+  ![extraG](Actions/extraG.png)
 
 
 
 #### 流程控制
 
-![flowG](Actions/flowG.png)
+  ![flowG](Actions/flowG.png)
 
 1. 暂停（仅一机多控）
 
