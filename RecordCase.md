@@ -53,9 +53,9 @@
 
    ![nodeActions](RecordCase/nodeActions.png)
 
-  > 控件操作的具体内容可以查看 [控件操作](Actions#常用控件操作方法示例)
-  >
-  > 当Soloπ图标为红色时，表示正在执行操作，执行完成后会变为黄色，请耐心等待
+   > 控件操作的具体内容可以查看 [控件操作](Actions#常用控件操作方法示例)
+   >
+   > 当Soloπ图标为红色时，表示正在执行操作，执行完成后会变为黄色，请耐心等待
 
   如果通过通用模式或H5增强模式均无法查找到对应控件，可以切换到图像查找模式，通过图像匹配进行查找。
 
@@ -102,7 +102,7 @@
 
        ![replaySteps](RecordCase/replaySteps.png)
 
-     > 可以点击查看目标节点与实际查找节点的区别
+      > 可以点击查看目标节点与实际查找节点的区别
 
        ![replayNodeInfo](RecordCase/replayNodeInfo.png)
 
@@ -110,7 +110,7 @@
 
        ![replayLog](RecordCase/replayLog.png)
 
-      > Soloπ会从logcat中获取的目标应用所有进程的日志，所以会有一部分日志产生时间在开始回放之前
+       > Soloπ会从logcat中获取的目标应用所有进程的日志，所以会有一部分日志产生时间在开始回放之前
 
    - 用例截图
 

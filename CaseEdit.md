@@ -20,7 +20,7 @@
 
 ### 编辑页
 
-  ![用例编辑页](CaseEdit/caseEditPage.png)
+   ![用例编辑页](CaseEdit/caseEditPage.png)
 
 * 添加步骤：包含创建新步骤与复用已有步骤，点击第一个tag为创建新步骤（当前只支持创建全局操作，控件操作暂不支持），之后的为该用例已有的步骤，点击后会添加步骤到步骤列表的末尾。
 * 步骤列表：当前编辑用例的操作步骤列表，可以修改、删除、拖动，支持IF、WHILE操作。
@@ -100,7 +100,7 @@
 
 转化后原步骤会消失，变成IF/WHILE操作，默认执行范围为之后的一条步骤。
 
-  ![logicStep2](CaseEdit/logicStep2.png)
+   ![logicStep2](CaseEdit/logicStep2.png)
 
 
 
