@@ -93,7 +93,7 @@
 
    ![replayNode](RecordCase/replayNode.jpg)
 
-4. 回访结束后，Soloπ会展示回放的相关内容
+4. 回放结束后，Soloπ会展示回放的相关内容
    - 回放概况
 
        ![replayResult](RecordCase/replayResult.png)
@@ -114,7 +114,7 @@
 
    - 用例截图
 
-       ![replayScreenshot](RecordCase/replayScreenshot.png)
+       ![replayScreenShot](RecordCase/replayScreenShot.png)
 
 
 
@@ -132,7 +132,7 @@
 
 2. 导出用例，Soloπ会将该条用例导出到`/sdcard/solopi/export`文件夹下，用户可自行将该用例拷贝到其他设备的`/sdcard/solopi/import`文件夹内，在设置中进行导入，详见[第一次使用](firstUse)中[相关配置](relativeConfig)一节。
 
-3. 重复播放，Soloπ会重复执行该条用例，可以配置回访次数与是否在每次用例执行前重启应用。
+3. 重复播放，Soloπ会重复执行该条用例，可以配置回放次数与是否在每次用例执行前重启应用。
    
    ![repeatExecution](RecordCase/repeatExecution.png)
    
