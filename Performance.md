@@ -1,4 +1,4 @@
-# 性能工具
+性能工具
 
 ## 介绍
 
@@ -19,7 +19,7 @@
 
 1. 勾选性能项，Soloπ会展示对应的性能指标
 
-  ![performanceInfo](Performance/performanceInfo.png)
+   ![performanceInfo](Performance/performanceInfo.png)
 
   > 在进入应用前，Soloπ会显示全局指标，进入应用后，Soloπ会显示应用最上层进程的相关性能指标。
   >
@@ -27,9 +27,9 @@
   >
   > 具体性能指标描述请参考后文性能指标一段。
 
-2. 点击悬浮窗中的应用标题，进入目标应用，切换为进程维度数据
+2. 点击悬浮窗中的应用标题，进入目标应用，切换为进程维度数据  
 
-  ![processData](Performance/processData.png)
+![processData](Performance/processData.png)
 
 3. 点击开始按钮（绿色三角），进行性能数据录制，可进行相关操作
 
@@ -43,15 +43,15 @@
 
 5. 点击悬浮窗右上角关闭键（红色"X"）可关闭悬浮窗，需要手动回到性能测试页面，可在录制数据查看一项中查看之前录制过的数据。
 
-  ![recordResult](Performance/recordResult.png)
+   ![recordResult](Performance/recordResult.png)
 
 6. 在录制项筛选中，可以选择之前录制的各项数据进行观看，内存与CPU会记录在顶层出现过的进程的数据。如果发生了进程切换，会记录前后10次数据。
 
-  ![recordedData](Performance/recordedData.png)
+   ![recordedData](Performance/recordedData.png)
 
 7. 当录制项过多时，可以点击右上角删除图标，对旧数据进行删除。
 
-  ![deleteRecordData](Performance/deleteRecordData.png)
+   ![deleteRecordData](Performance/deleteRecordData.png)
 
 
 ### 环境加压
@@ -62,11 +62,11 @@ Soloπ提供了环境加压的功能，可以提供CPU与内存加压
 
 1. 内存加压
 
-  ![memoryPressure](Performance/memoryPressure.gif)
+   ![memoryPressure](Performance/memoryPressure.gif)
 
 2. CPU加压
 
-  ![CPUPressure](Performance/CPUPressure.gif)
+![CPUPressure](Performance/CPUPressure.gif)
 
 
 
@@ -92,11 +92,11 @@ Soloπ响应耗时计算工具，通过录屏分帧的方式自动识别起始�
 
 1. 进入Soloπ性能测试页面，点击启动耗时计算。
 
-  ![recordTime](Performance/recordTime.png)
+   ![recordTime](Performance/recordTime.png)
 
 2. 建议默认参数无需修改，点击启动按钮，会弹出录制浮窗。
 
-  ![recordFloat](Performance/recordFloat.png)
+   ![recordFloat](Performance/recordFloat.png)
 
 3. 切换至待测应用，并进入操作路径的起始页面。
 
@@ -110,7 +110,7 @@ Soloπ响应耗时计算工具，通过录屏分帧的方式自动识别起始�
 
 5. 当页面停止变化后，点击结束录制。几秒后会显示测试结果。
 
-  ![recordResponseResult](Performance/recordResponseResult.png)
+   ![recordResponseResult](Performance/recordResponseResult.png)
 
 ## 注意事项
 
