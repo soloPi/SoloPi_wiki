@@ -104,6 +104,18 @@ A: 主从机需要在同一个界面上才可以同步操作，同时也可以�
 
 <br/>
 
+Q: 我在主机上执行导出的用例，怎么通过`adb pull /storage/emulated/0/xxx`拉不出来？
+
+A: 请通过一下三个步骤进行确认：
+
+   第一步：请确认下Soloπ设置里 导入外部用例 菜单项内容，是 `/storage/emulated/0/solopi/import` ，还是 `/storage/emulated/0/Android/data/com.alipay.hulu/files/solopi/import` ，或者是其他的值，这个决定export目录具体是在哪个位置。
+
+   第二步：在手机上使用任意的文件管理器，以华为自带的文件管理为例，看下内部存储中是否有 `solopi` 文件夹，如果有的话进入查看是否有 `export` 文件夹，这里是用例实际导出的目录。如果导入外部用以菜单项内容为 Android/data/com.alipay.hulu， 则进入内部存储中 `Android/data/com.alipay.hulu/files/solopi/export` 目录。同样确认下是否生成导出的用例json文件。
+
+   第三步：如果步骤2中找不到对应的用例，再执行一次导出用例，然后将/sdcard/Android/data/com.alipay.hulu/cache/logs/中最新一条log日志导出来提一下issue。
+
+<br/>
+
 Q: 我自己打的包，卡在闪屏不动了
 
 A: 看下有没有关闭instant run
