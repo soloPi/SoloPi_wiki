@@ -1,13 +1,12 @@
 ### 上手视频  Tutorial Videos
 
 <video src = "Home/oneToMany.mp4" control="control" ></video>
-
 [一机多控](Home/oneToMany.mp4)
 
 ### 简介 Introduction
 
-Soloπ是一个无线化、非侵入式的Android自动化工具，公测版拥有录制回放、性能测试、一机多控三项主要功能，能为测试开发人员节省宝贵时间。
-Soloπ is a wireless, non-invasive automation testing tool in android system, there are three main functionalities in public beta edition includes, record and replay, performance testing, control multiple phones from one phone(OneToMany).
+SoloPi是一个无线化、非侵入式的Android自动化工具，公测版拥有录制回放、性能测试、一机多控三项主要功能，能为测试开发人员节省宝贵时间。
+SoloPi is a wireless, non-invasive automation testing tool in android system, there are three main functionalities in public beta edition includes, record and replay, performance testing, control multiple phones from one phone(OneToMany).
 
 
 如果你是第一次使用SoloPi，推荐你先了解SoloPi的[第一次使用](FirstUse)，再阅读下文中功能介绍部分。
