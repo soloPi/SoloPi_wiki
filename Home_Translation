@@ -1,0 +1,29 @@
+Tutorial Videos
+
+Multitasking with one phone
+
+Introduction
+
+Soloπ is a wireless, non-invasive automation testing tool in android system, there are three main functionalities in public beta edition includes, record and replay, performance testing, control multiple phones from one phone.
+
+Quick Start
+
+If you are first time Soloπ User, Please read the Soloπ first time user instructions, then read the document below.
+
+FAQ
+
+Soloπ’s FAQ document
+
+Record and Replay
+
+Soloπ has the ability to record user actions on the mobile phone, user only needs to record the detailed steps they want to test for their app as test cases. The recorded test cases can be replayed on any other android mobile devices. For more details, please read record and replay section.
+
+Performance Testing Tool
+
+Soloπ can record app performance metrics, you can monitor app live performance data within the floating windows or record the app performance and visualize the data into chart. Soloπ also supports benchmark app testing through add load into CPU, Memory and network conditions, User can monitor the app performance in different scenarios, replicate the performance issues under certain circumstances. 
+
+Soloπ also provides load time testing tool, which can be done through 2 clicks, this tool simulates the loading time performance which matches user experience. Load Time testing tool supports remote control through UI automation testing. For details, please read performance testing tools.
+
+Testing multiple android mobile devices through one device
+
+Soloπ support testing multiple android mobile through one device, User only need to record the test cases once on one device and apply test cases to multiple devices, which improves testing efficiency and testing coverage. For details, check “One to Many” section
